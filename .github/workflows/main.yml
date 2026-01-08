@@ -1,0 +1,16 @@
+name: Unity-CI-Check
+
+# 実行されるタイミング：mainブランチにPushされた時
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run a simple script
+        run: echo "GitHub Actionsの自動化が正常に起動しました！"
