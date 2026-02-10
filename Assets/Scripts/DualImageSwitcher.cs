@@ -6,11 +6,11 @@ using System.Threading;
 public class DualImageSwitcher : MonoBehaviour
 {
     [Header("セットA (6枚用)")]
-    public Image displayImageA;
+    public SpriteRenderer displayImageA;
     public Sprite[] spritesA;
 
     [Header("セットB (5枚用)")]
-    public Image displayImageB;
+    public SpriteRenderer displayImageB;
     public Sprite[] spritesB;
 
     private const float IntervalSeconds = 0.5f;
