@@ -34,4 +34,3 @@ public class DualImageSwitcher : MonoBehaviour
         }
     }
 }
-
