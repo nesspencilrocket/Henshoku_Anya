@@ -1,12 +1,25 @@
-開発中
+# 【開発中】偏食ア〇ニャの料理格付け
 
-UniTask (by Cysharp)
-https://github.com/Cysharp/UniTask/releases
+UnityとLLMを用いた対話型AIアプリケーションゲーム
 
-## 使用技術 / Libraries
-- **UniTask**: 非同期処理（コルーチンの代替）の管理に使用
-- **DOTween**: UIのアニメーション制御に使用
+## 導入方法 (Getting Started)
+ここにUnity Package Managerでの導入方法や、モデルの配置場所などを記載予定
 
-## 導入について
-UniTaskおよびDOTweenは `Assets/Plugins` フォルダに含まれています。
-別途インストールの必要はありません。
+## 使用ライブラリ (Libraries Used)
+- [LLMUnity](https://github.com/undreamai/LLMUnity)
+- [UniTask](https://github.com/Cysharp/UniTask)
+- [DOTween](https://dotween.demigiant.com/)
+
+## ライセンス (License)
+
+### 本プロジェクトのライセンス
+このプロジェクト自体のソースコードは **MIT License** の下で公開されています。詳細は [LICENSE](LICENSE) ファイルをご覧ください。
+
+### サードパーティ・ライセンス
+本プロジェクトで使用している外部ライブラリおよびAIモデルの著作権表示とライセンス全文は、[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) に記載されています。
+
+- **LLMUnity / UniTask / DOTween:** MIT License
+- **Gemma-2-2b-it:** Gemma Terms of Use (Google)
+
+---
+Copyright (c) 2026 Ness(nesspencilrocket)
