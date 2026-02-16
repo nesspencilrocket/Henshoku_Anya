@@ -1,6 +1,6 @@
 # 【開発中】偏食ア〇ニャの料理格付け
 
-UnityとLLMを用いた対話型AIアプリケーションゲーム
+UnityとLLMを用いた対話型AIアプリケーション・ゲーム
 
 ## 導入方法 (Getting Started)
 ここにUnity Package Managerでの導入方法や、モデルの配置場所などを記載予定
