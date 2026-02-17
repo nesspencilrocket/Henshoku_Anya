@@ -3,7 +3,7 @@
 UnityとLLMを用いた対話型AIアプリケーション・ゲーム
 
 ## 導入方法 (Getting Started)
-ここにUnity Package Managerでの導入方法や、モデルの配置場所などを記載予定
+ここにUnity Package Managerでの導入方法や、モデルの配置場所などを記載する予定
 
 ## 使用ライブラリ (Libraries Used)
 - [LLMUnity](https://github.com/undreamai/LLMUnity)
