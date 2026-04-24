@@ -9,7 +9,7 @@ UnityとLLMを用いた対話型AIアプリケーション・ゲーム
 ## 失敗原因
 
 SystemPrompt内でのローカルLLMへの指示が解答に反映されない
-(検証:Qwen,Gemma(詳細更新予定))
+(検証:Qwen3-12B,Llama3.2-3B)
 
 ## 使用ライブラリ (Libraries Used)
 - [LLMUnity](https://github.com/undreamai/LLMUnity)
