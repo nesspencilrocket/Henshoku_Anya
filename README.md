@@ -2,8 +2,14 @@
 
 UnityとLLMを用いた対話型AIアプリケーション・ゲーム
 
-## 導入方法 (Getting Started)
-ここにUnity Package Managerでの導入方法や、モデルの配置場所などを記載する予定
+## 開発の目的
+ローカルLLMでキャラクターのしぐさをsystempromptの範囲で真似させることで、
+他のゲームでの会話や文章生成する際に精度がどうなるかの確認
+
+## 失敗原因
+
+SystemPrompt内でのローカルLLMへの指示が解答に反映されない
+(検証:Qwen,Gemma(詳細更新予定))
 
 ## 使用ライブラリ (Libraries Used)
 - [LLMUnity](https://github.com/undreamai/LLMUnity)
