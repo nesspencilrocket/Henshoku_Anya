@@ -1,9 +1,18 @@
-# 【開発中】偏食ア〇ニャの料理格付け
+# 【開発失敗】偏食ア〇ニャの料理格付け
 
 UnityとLLMを用いた対話型AIアプリケーション・ゲーム
 
-## 導入方法 (Getting Started)
-ここにUnity Package Managerでの導入方法や、モデルの配置場所などを記載する予定
+## 開発の目的
+ローカルLLMでキャラクターの特徴をSystemPromptの範囲で真似させることで、
+他のゲームでの会話や文章生成する際に精度がどうなるかの確認
+(定義的にはSLMであっても、ここではライブラリに従いLLMと言う)
+
+## 失敗原因
+
+SystemPrompt内でのローカルLLMへの指示が回答に正しく反映されない
+(アーニャの指示を出したにもかかわらず、アーニャに似た何かになる)
+
+(検証:Llama3.2-3B,Qwen3-12B)
 
 ## 使用ライブラリ (Libraries Used)
 - [LLMUnity](https://github.com/undreamai/LLMUnity)
