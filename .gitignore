@@ -73,3 +73,32 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+# --- LLMUnity & Local Model Files ---S
+# LLMのモデルファイルは巨大（数GB）なため、基本的には除外します。
+*.gguf
+*.bin
+# StreamingAssets内に配置されたモデルも個別に除外
+/[Aa]ssets/[Ss]treamingAssets/*.gguf
+/[Aa]ssets/[Ss]treamingAssets/*.bin
+
+# --- Project Specific (Based on image_b920dc.png) ---
+# Unityが生成したリカバリ用の一時ファイル
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/Recovery/
+
+# LLMUnityのドキュメントや内部管理用ファイル（必要なければ除外）
+/[Aa]ssets/LLMUnity-*/.github/
+/[Aa]ssets/LLMUnity-*/doxygen/
+
+
+
+# --- Large Native Libraries (LLMUnity/LlamaLib) ---
+# 100MBを超えるバイナリファイルを除外
+*.so
+*.dll
+*.dylib
+
+# LlamaLibのライブラリフォルダごと除外する場合
+/[Aa]ssets/[Ss]treamingAssets/LlamaLib-*/
